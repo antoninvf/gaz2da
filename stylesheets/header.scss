@@ -1,0 +1,110 @@
+@import 'variables.scss';
+header {
+    display: flex;
+    background-color: $header-color;
+    width: 100%;
+    height: 13vh;
+    justify-content: center;
+}
+
+.main-header {
+    display: flex;
+    background-color: $header-color;
+    width: 62%;
+    height: 13vh;
+    flex-direction: column;
+}
+
+.site-name {
+    align-self: flex-start;
+    margin-top: 2vh;
+    margin-right: 5vh;
+    margin-left: 0;
+    font-size: 4vh;
+    font-weight: bolder;
+    font-family: 'Good Times', sans-serif;
+    color: $primary-color;
+}
+
+.logo-middle {
+    color: #F9F9F9
+}
+
+.logo-last {
+    color: $tertiary-color;
+}
+
+.site-nav {
+    display: flex;
+    align-self: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+}
+
+.site-nav-element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18vh;
+    height: 4.5vh;
+    background-color: $side-nav-buttons;
+    border-radius: 0.4vh 0.4vh 0 0;
+    margin-right: 0.5vh;
+}
+
+.site-nav-element:hover {
+    background-color: $side-nav-buttons-hover;
+}
+
+.site-nav-category {
+    width: 29vh;
+}
+
+.site-nav-category:hover {
+    background-color: $side-nav-buttons;
+}
+
+.site-nav-text {
+    font-size: 1.3vh;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.9)
+}
+
+.site-nav-category-text {
+    margin-right: auto;
+    margin-left: 3vh;
+    font-size: 1.5vh;
+}
+
+.fa-bars {
+    color: darkgray;
+    font-size: 1.7vh;
+    margin-right: 1vh;
+}
+
+.special {
+    background-color: $special-color;
+    width: 22vh;
+}
+
+.top-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.cart-btn {
+    align-self: flex-end;
+    margin-left: auto;
+    margin-right: 0;
+    font-size: 2.5vh;
+}
+
+.fa-shopping-cart {
+    color: white;
+    font-size: 2vh;
+}
+
+.cart-bg {
+    color: rgb(41, 41, 41)
+}

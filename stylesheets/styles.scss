@@ -1,0 +1,198 @@
+@import 'variables.scss';
+@import 'header.scss';
+@import 'middle.scss';
+@import 'footer.scss';
+@font-face {
+    font-family: 'Good Times';
+    src: url("../resources/font/goodtimes.ttf");
+}
+
+html {
+    scroll-behavior: smooth;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-drag: none;
+    user-select: none;
+}
+
+body {
+    background-color: $background-color;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    -webkit-user-drag: none;
+}
+
+.middle {
+    display: flex;
+    margin-top: 0;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+
+.products-box {
+    display: flex;
+    background-color: white;
+    width: 62%;
+    height: 48vh;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    width: 29vh;
+    height: 48vh;
+    border-left: 0.1vh solid $border-color;
+    border-right: 0.1vh solid $border-color;
+    border-bottom: 0.1vh solid $border-color;
+}
+
+.category {
+    display: flex;
+    height: 5vh;
+    width: 29vh;
+    align-items: center;
+}
+
+.category:hover {
+    background-color: $background-color;
+}
+
+.category-text {
+    color: $text-color1;
+    font-size: 1.5vh;
+    margin-left: 2vh;
+}
+
+.fa-chevron-right {
+    color: $text-color2;
+    font-size: 1.5vh;
+    margin-left: auto;
+    margin-right: 1.5vh;
+    font-size: 1.2vh;
+}
+
+.fa-sort-down {
+    color: $side-nav-buttons;
+    font-size: 2.5vh;
+    margin-top: -1.6vh;
+    align-self: flex-start;
+    margin-right: auto;
+    margin-left: 3vh;
+    margin-bottom: 0;
+}
+
+.products {
+    display: flex;
+    width: 100%;
+    background-color: $background-color;
+}
+
+.product {
+    object-fit: cover;
+    width: 32.1vh;
+    height: 100%;
+    background-color: black;
+}
+
+.hovereff {
+    transition: opacity 0.3s;
+}
+
+.hovereff:hover {
+    opacity: 60%;
+}
+
+@keyframes hoverfade {
+    from {
+        opacity: 100%
+    }
+    to {
+        opacity: 60%;
+    }
+}
+
+.stuff-box {
+    margin-top: 6vh;
+    display: flex;
+    width: 62%;
+    height: 60vh;
+    flex-direction: column;
+}
+
+.stuff-title {
+    color: $text-color1;
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.stuff-tagline {
+    color: $text-color2;
+    font-size: 1.6vh;
+}
+
+.stuff-item-box {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vh;
+    justify-content: space-between;
+}
+
+.stuff-item {
+    display: flex;
+    width: 20vh;
+    height: 40vh;
+    flex-direction: column;
+}
+
+.stuff-item-photobox {
+    display: flex;
+    align-self: flex-start;
+    justify-content: center;
+    align-items: center;
+    width: 20vh;
+    height: 30vh;
+    background-color: white;
+    border: 0.1vh $border-color solid;
+}
+
+.stuff-item-img {
+    width: 14vh;
+    height: 18vh;
+    background-color: white;
+    object-fit: contain;
+}
+
+.stuff-item-title {
+    margin-top: 1vh;
+    font-size: 1.5vh;
+    font-weight: bold;
+}
+
+.stuff-item-offer {
+    margin-top: auto;
+    margin-bottom: -2vh;
+    font-size: 1.2vh;
+    color: $text-color2;
+}
+
+.stuff-item-price {
+    margin-top: auto;
+    margin-bottom: 1vh;
+    font-size: 1.8vh;
+    font-weight: bold;
+}
