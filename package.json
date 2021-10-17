@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "scss": "^0.2.4"
   }
 }
