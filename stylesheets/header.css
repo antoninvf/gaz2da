@@ -1,37 +1,27 @@
 header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   background-color: black;
   width: 100%;
   height: 13vh;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .main-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   background-color: black;
   width: 62%;
   height: 13vh;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .site-name {
-  -ms-flex-item-align: start;
-      align-self: flex-start;
+  align-self: flex-start;
   margin-top: 2vh;
   margin-right: 5vh;
   margin-left: 0;
   font-size: 4vh;
   font-weight: bolder;
-  font-family: 'Good Times', sans-serif;
+  font-family: "Good Times", sans-serif;
   color: #f05f00;
 }
 
@@ -44,28 +34,17 @@ header {
 }
 
 .site-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  align-self: flex-end;
+  align-items: flex-end;
   width: 100%;
   height: 100%;
 }
 
 .site-nav-element {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   width: 18vh;
   height: 4.5vh;
   background-color: #212121;
@@ -109,18 +88,12 @@ header {
 }
 
 .top-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
 
 .cart-btn {
-  -ms-flex-item-align: end;
-      align-self: flex-end;
+  align-self: flex-end;
   margin-left: auto;
   margin-right: 0;
   font-size: 2.5vh;
@@ -133,5 +106,4 @@ header {
 
 .cart-bg {
   color: #292929;
-}
-/*# sourceMappingURL=header.css.map */
+}/*# sourceMappingURL=header.css.map */
