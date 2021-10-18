@@ -23,6 +23,9 @@ header {
     font-size: 4vh;
     font-weight: bolder;
     font-family: 'Good Times', sans-serif;
+}
+
+.logo-first {
     color: $primary-color;
 }
 
@@ -84,8 +87,12 @@ header {
 }
 
 .special {
-    background-color: $special-color;
+    background-color: rgb(98, 2, 234);
     width: 22vh;
+}
+
+.special:hover {
+    background-color: rgb(110, 12, 247);
 }
 
 .top-header {

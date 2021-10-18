@@ -22,6 +22,9 @@ header {
   font-size: 4vh;
   font-weight: bolder;
   font-family: "Good Times", sans-serif;
+}
+
+.logo-first {
   color: #f05f00;
 }
 
@@ -85,6 +88,10 @@ header {
 .special {
   background-color: #6202ea;
   width: 22vh;
+}
+
+.special:hover {
+  background-color: #6e0cf7;
 }
 
 .top-header {
@@ -285,7 +292,6 @@ header {
 }
 
 footer {
-  margin-bottom: 0;
   margin-top: 10vh;
   display: flex;
   background-color: #212121;
@@ -314,6 +320,7 @@ body {
 }
 
 a {
+  margin: 0;
   text-decoration: none;
 }
 
@@ -325,8 +332,55 @@ img {
   -webkit-user-drag: none;
 }
 
+.product-box {
+  margin-top: 3vh;
+  display: flex;
+  width: 62%;
+  flex-direction: row;
+}
+
 .product-photo {
-  border-radius: 0.5vh;
-  width: 34vh;
-  height: 46vh;
+  border-radius: 0.4vh;
+  width: 36vh;
+  height: 50vh;
+}
+
+.product-title {
+  font-size: 3.5vh;
+  font-weight: bolder;
+  margin-left: 3vh;
+  width: 50vh;
+}
+
+.product-description {
+  font-size: 1.5vh;
+  color: rgba(0, 0, 0, 0.87);
+  margin-top: 3vh;
+  margin-left: 3vh;
+  width: 50vh;
+}
+
+.product-pricebox {
+  border-radius: 0.4vh;
+  border: solid 0.1vh #e0e0e0;
+  width: 32vh;
+  height: 40vh;
+  margin-left: auto;
+  margin-right: 1vh;
+}
+
+.product-pricetext {
+  font-size: 1.4vh;
+  font-weight: bolder;
+  color: rgba(0, 0, 0, 0.54);
+  margin-top: 1vh;
+  margin-left: 1vh;
+  margin-bottom: -0.8vh;
+}
+
+.product-price {
+  font-weight: bolder;
+  font-size: 4vh;
+  font-weight: bold;
+  margin-left: 1vh;
 }/*# sourceMappingURL=styles.css.map */

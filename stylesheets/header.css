@@ -22,6 +22,9 @@ header {
   font-size: 4vh;
   font-weight: bolder;
   font-family: "Good Times", sans-serif;
+}
+
+.logo-first {
   color: #f05f00;
 }
 
@@ -85,6 +88,10 @@ header {
 .special {
   background-color: #6202ea;
   width: 22vh;
+}
+
+.special:hover {
+  background-color: #6e0cf7;
 }
 
 .top-header {
