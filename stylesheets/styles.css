@@ -371,11 +371,11 @@ img {
 
 .product-pricetext {
   font-size: 1.4vh;
-  font-weight: bolder;
+  font-weight: bold;
   color: rgba(0, 0, 0, 0.54);
   margin-top: 1vh;
   margin-left: 1vh;
-  margin-bottom: -0.8vh;
+  margin-bottom: -0.5vh;
 }
 
 .product-price {
@@ -383,4 +383,46 @@ img {
   font-size: 4vh;
   font-weight: bold;
   margin-left: 1vh;
+}
+
+.product-btn1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2f82fb;
+  border-radius: 0.4vh;
+  width: 27vh;
+  height: 4.4vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2vh;
+  cursor: pointer;
+}
+
+.product-btn1:hover {
+  background-color: #145bc5;
+}
+
+.product-btn2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6202ea;
+  border-radius: 0.4vh;
+  width: 27vh;
+  height: 4.4vh;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2vh;
+  cursor: pointer;
+}
+
+.product-btn2:hover {
+  background-color: #510db1;
+}
+
+.product-btntext {
+  color: white;
+  font-size: 1.4vh;
+  font-weight: bolder;
 }/*# sourceMappingURL=styles.css.map */
