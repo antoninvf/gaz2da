@@ -299,39 +299,6 @@ footer {
   height: 10vh;
 }
 
-@font-face {
-  font-family: "Good Times";
-  src: url("../resources/font/goodtimes.ttf");
-}
-html {
-  scroll-behavior: smooth;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  -webkit-user-drag: none;
-  user-select: none;
-}
-
-body {
-  background-color: #f9f9f9;
-  font-family: "Roboto", sans-serif;
-  margin: 0;
-}
-
-a {
-  margin: 0;
-  text-decoration: none;
-}
-
-p {
-  margin: 0;
-}
-
-img {
-  -webkit-user-drag: none;
-}
-
 .product-box {
   margin-top: 3vh;
   display: flex;
@@ -425,4 +392,45 @@ img {
   color: white;
   font-size: 1.4vh;
   font-weight: bolder;
+}
+
+@font-face {
+  font-family: "Good Times";
+  src: url("../resources/font/goodtimes.ttf");
+}
+html {
+  scroll-behavior: smooth;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+body {
+  background-color: #f9f9f9;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+a {
+  margin: 0;
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  -webkit-user-drag: none;
+}
+
+.bg-color1 {
+  background-color: #f9f9f9;
+}
+
+.bg-color2 {
+  background-color: white;
 }/*# sourceMappingURL=styles.css.map */
