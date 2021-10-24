@@ -115,6 +115,24 @@ header {
   color: #292929;
 }
 
+@media only screen and (max-width: 768px) {
+  header {
+    height: 9vh;
+  }
+
+  .main-header {
+    width: 100%;
+    height: 9vh;
+  }
+
+  .site-name {
+    margin-left: 1vh;
+  }
+
+  .site-nav {
+    display: none;
+  }
+}
 .middle {
   display: flex;
   margin-top: 0;
@@ -122,13 +140,6 @@ header {
   width: 100%;
   align-items: center;
   flex-direction: column;
-}
-
-.products-box {
-  display: flex;
-  background-color: white;
-  width: 62%;
-  height: 48vh;
 }
 
 .categories {
@@ -174,6 +185,13 @@ header {
   margin-right: auto;
   margin-left: 3vh;
   margin-bottom: 0;
+}
+
+.products-box {
+  display: flex;
+  background-color: white;
+  width: 62%;
+  height: 48vh;
 }
 
 .products {
@@ -292,6 +310,27 @@ header {
   font-weight: bold;
 }
 
+@media only screen and (max-width: 768px) {
+  .fa-sort-down {
+    display: none;
+  }
+
+  .categories {
+    display: none;
+  }
+
+  .products {
+    overflow: scroll;
+  }
+
+  .products-box {
+    width: 32.1vh;
+  }
+
+  .stuff-item-box {
+    overflow: scroll;
+  }
+}
 footer {
   align-self: flex-end;
   background-color: #212121;
@@ -470,6 +509,43 @@ footer {
   color: #DD301C;
 }
 
+@media only screen and (max-width: 768px) {
+  .product-box {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .product-photo {
+    align-self: center;
+  }
+
+  .product-title {
+    margin-top: 2vh;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    text-overflow: ellipsis;
+  }
+
+  .product-infobox {
+    width: 40vh;
+    align-self: center;
+  }
+
+  .product-description {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin-right: 3vh;
+  }
+
+  .product-pricebox {
+    margin-top: 3vh;
+    align-self: center;
+    margin-left: 0;
+    margin-bottom: 5vh;
+  }
+}
 @font-face {
   font-family: "Good Times";
   src: url("../resources/font/goodtimes.ttf");

@@ -168,3 +168,32 @@
 .red {
     color: #DD301C;
 }
+
+@media only screen and (max-width: 768px) {
+    .product-box {
+        width: 100%;
+        flex-direction: column;
+    }
+    .product-photo {
+        align-self: center;
+    }
+    .product-title {
+        margin-top: 2vh;
+        width: fit-content;
+        text-overflow: ellipsis;
+    }
+    .product-infobox {
+        width: 40vh;
+        align-self: center;
+    }
+    .product-description {
+        width: fit-content;
+        margin-right: 3vh;
+    }
+    .product-pricebox {
+        margin-top: 3vh;
+        align-self: center;
+        margin-left: 0;
+        margin-bottom: 5vh;
+    }
+}

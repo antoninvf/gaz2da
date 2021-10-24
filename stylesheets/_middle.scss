@@ -8,13 +8,6 @@
     flex-direction: column;
 }
 
-.products-box {
-    display: flex;
-    background-color: white;
-    width: 62%;
-    height: 48vh;
-}
-
 .categories {
     display: flex;
     flex-direction: column;
@@ -58,6 +51,13 @@
     margin-right: auto;
     margin-left: 3vh;
     margin-bottom: 0;
+}
+
+.products-box {
+    display: flex;
+    background-color: white;
+    width: 62%;
+    height: 48vh;
 }
 
 .products {
@@ -164,4 +164,22 @@
     margin-bottom: 1vh;
     font-size: 1.8vh;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+    .fa-sort-down {
+        display: none;
+    }
+    .categories {
+        display: none;
+    }
+    .products {
+        overflow: scroll;
+    }
+    .products-box {
+        width: 32.1vh;
+    }
+    .stuff-item-box {
+        overflow: scroll;
+    }
 }
